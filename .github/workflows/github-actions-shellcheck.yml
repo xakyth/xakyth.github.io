@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run shellcheck
-        uses: xakyth/xakyth.github.io
+        uses: xakyth/xakyth.github.io@main
