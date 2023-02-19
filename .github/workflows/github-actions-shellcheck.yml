@@ -1,0 +1,15 @@
+name: GitHub Actions Shellcheck
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run shellcheck
+       uses: xakyth/github-actions-shellcheck@main
