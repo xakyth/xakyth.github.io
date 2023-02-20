@@ -1,0 +1,10 @@
+name: "proselint"
+on: [pull_request]
+jobs:
+  proselint-md-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: sudo add-apt-repository universe
+      - run: sudo apt install python3-proselint
+      - run: find -name "*.md" | xargs 
