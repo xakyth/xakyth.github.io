@@ -1,8 +1,8 @@
 masdmf masdf
 
 baadd Readme File
-approximately about
+approximately
 "bad quotes"
 
-excited!!!!!!!!!!
-new line!!
+excited!
+new line!
